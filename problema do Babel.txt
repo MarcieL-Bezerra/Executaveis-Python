@@ -1,0 +1,13 @@
+pyinstaller --noconfirm --onedir --windowed --icon "E:\Meus_Python obsoletos\Novo_Gerenciador/arquivos/MB2ICO.ico"  "E:\Meus_Python obsoletos\Novo_Gerenciador/Gerenciador.py"
+
+pip3 install Babel
+
+
+pyinstaller.exe --windowed --icon "E:\Meus_Python obsoletos\Novo_Gerenciador\arquivos/MB2ICO.ico" --hidden-import babel.numbers Gerenciador.py
+
+
+
+pyinstaller --noconfirm --onedir --windowed --icon "E:/Meus_Python/Irene/arquivos/robo4Ico.ico" --add-data "E:/Meus_Python/Irene/arquivos;arquivos/" 
+--add-data "E:/Meus_Python/Irene/conversas;conversas/" --add-data "E:/Meus_Python/Irene/__pycache__;__pycache__/" 
+--add-data "E:/Meus_Python/Irene/chromedriver.exe;." --add-data "E:/Meus_Python/Irene/database.sqlite3;." 
+--add-data "E:/Meus_Python/Irene/db.sqlite3;."  "E:/Meus_Python/Irene/irene.py"
